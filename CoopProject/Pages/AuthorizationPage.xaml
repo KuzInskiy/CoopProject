@@ -9,6 +9,15 @@
       Title="AuthorizationPage">
 
     <Grid>
-        
+        <Border Background="LightGray">
+            <Grid>
+                <Label Margin="5,300,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="70" Width="280" FontSize="40">Введите логин:</Label>
+                <Label Margin="5,400,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="70" Width="310" FontSize="40">Введите пароль:</Label>
+                <TextBox x:Name="PasswordTB" Width="200" Height="80" Margin="356,395,44,325"/>
+                <TextBox x:Name="LoginTB" Width="200" Height="80" Margin="356,295,44,425"/>
+                <Button Width="200" Height="100" x:Name="AuthBTN" Content="Войти" FontSize="40" Margin="45,563,355,137"></Button>
+                <Button Width="200" Height="100" x:Name="ReturnBTN" Content="Нет аккаунта?" FontSize="30" Margin="356,563,44,137"></Button>
+            </Grid>
+        </Border>
     </Grid>
 </Page>
