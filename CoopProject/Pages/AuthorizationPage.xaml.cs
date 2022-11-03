@@ -20,9 +20,29 @@ namespace CoopProject.Pages
     /// </summary>
     public partial class AuthorizationPage : Page
     {
-        public AuthorizationPage()
+        Frame mainFrame;
+        public AuthorizationPage(Frame frame)
         {
             InitializeComponent();
+            mainFrame = frame;
+        }
+
+        private void AuthBTN_Click(object sender, RoutedEventArgs e)
+        {
+            if(LoginTB.Text != "" && PasswordTB.Text !="")
+            {
+             Models.Account account = context.cont.Accounts.Where(c => c.Login ==LoginTB.Text && c.Password == PasswordTB.Text).FirstOrDefault();
+                if(account != null)
+                {
+                    MessageBox.Show("Успешная Авторизация");
+                }
+
+            }
+        }
+
+        private void ReturnBTN_Click(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new Pages.RegistrationPage(mainFrame));
         }
     }
 }
