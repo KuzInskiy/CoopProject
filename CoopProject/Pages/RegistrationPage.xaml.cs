@@ -50,7 +50,7 @@ namespace CoopProject.Pages
 
         private void BackBTN_Click(object sender, RoutedEventArgs e)
         {
-            mainFrame.Navigate(new AuthorizationPage());
+            mainFrame.Navigate(new Pages.AuthorizationPage(mainFrame));
         }
     }
 }

@@ -20,3 +20,4 @@ C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\CoopProje
 C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\CoopProject.csproj.CopyComplete
 C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\CoopProject.exe
 C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\CoopProject.pdb
+C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\Pages\RegistrationPage.g.cs
