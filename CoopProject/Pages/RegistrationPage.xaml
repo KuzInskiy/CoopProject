@@ -15,6 +15,10 @@
                 <Label Margin="5,400,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="70" Width="310" FontSize="40">Введите пароль:</Label>
                 <TextBox x:Name="PasswordTB" Width="200" Height="80" Margin="356,395,44,325"/>
                 <TextBox x:Name="LoginTB" Width="200" Height="80" Margin="356,295,44,425"/>
+                <TextBox x:Name="RepeatPasswordTB" Width="200" Height="80" Margin="356,508,44,212"/>
+                <Label Margin="5,518,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="70" Width="370" FontSize="40">Повторите пароль:</Label>
+                <Button Height="60" Width="300" Background="DarkGray" Margin="145,627,155,93" FontSize="30" x:Name="RegBTN" Click="RegBTN_Click">Зарегистрироваться</Button>
+                <Button Height="60" Width="300" Background="DarkGray" Margin="145,730,155,10" FontSize="30" x:Name="BackBTN" Click="BackBTN_Click">Назад</Button>
             </Grid>
         </Border>
     </Grid>

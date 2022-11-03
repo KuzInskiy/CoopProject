@@ -23,6 +23,7 @@ namespace CoopProject
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Pages.RegistrationPage(MainFrame));
         }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\source\repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\
+C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\obj\Debug\
 CoopProject
 none
 false
 DEBUG;TRACE
-C:\Users\User\source\repos\KuzInskiy\CoopProject\CoopProject\App.xaml
-1219584333
+C:\Users\User\Source\Repos\KuzInskiy\CoopProject\CoopProject\App.xaml
+3-464206423
 2-1223955081
-9687588420
-1833946503
-MainWindow.xaml;
+11-1218663052
+181635105031
+MainWindow.xaml;Pages\AuthorizationPage.xaml;Pages\RegistrationPage.xaml;
 
 True
 

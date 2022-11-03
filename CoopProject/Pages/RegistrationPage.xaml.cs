@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoopProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,36 @@ namespace CoopProject.Pages
     /// </summary>
     public partial class RegistrationPage : Page
     {
-        public RegistrationPage()
+        Frame mainFrame;
+        public RegistrationPage(Frame frame)
         {
             InitializeComponent();
+            mainFrame = frame;
+            
+        }
+
+        private void RegBTN_Click(object sender, RoutedEventArgs e)
+        {
+            if (LoginTB.Text != null && PasswordTB.Text != null && RepeatPasswordTB.Text != null && PasswordTB.Text == RepeatPasswordTB.Text)
+            {
+                try
+                {
+                    Account account = new Account
+                    {
+                        Login = LoginTB.Text,
+                        Password = PasswordTB.Text,
+                    };
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void BackBTN_Click(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new AuthorizationPage());
         }
     }
 }
